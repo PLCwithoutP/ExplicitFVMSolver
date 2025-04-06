@@ -9,6 +9,7 @@ sigma = 1
 
 def calculatePressure(Q):
     e_int = (Q[4] - 0.5*Q[0]*(Q[1]**2 + Q[2]**2 + Q[3]**2))/(Q[0])
+    print("Internal e: ", e_int)
     p = e_int * Q[0] * (gamma - 1)
     return p
 
@@ -130,21 +131,34 @@ def invokeAUSMPlusUp(Q_L, Q_R, n_surface, inletMach):
     p_L = calculatePressure(Q_L)
     p_R = calculatePressure(Q_R)
     
+    print("Left and Right pressure:", p_L, "and", p_R)
     u_L = [u_x_L, u_y_L, u_z_L]
     u_R = [u_x_R, u_y_R, u_z_R]
-
+    print("Left and Right speed:", u_L, "and", u_R)
+    
     a_L = calculateSpeedOfSound(rho_L, p_L)
     a_R = calculateSpeedOfSound(rho_R, p_R)
+    print("Left and Right speed of sound:", a_L, "and", a_R)
 
     H_L = calculateEnthalpy(E_L, rho_L, p_L)
     H_R = calculateEnthalpy(E_R, rho_R, p_R)
+    print("Left and Right enthalpy:", H_L, "and", H_R)
 
     a_12 = calculateFaceSpeedOfSound(a_L, a_R)
+    print("Face speed of sound:", a_12)
+    
     rho_12 = calculateFaceDensity(rho_L, rho_R)
+    print("Face density:", rho_12)
 
     M_L, M_R = calculateLeftRightMach(n_surface, u_L, u_R, a_12)
+    print("Left and right Mach number: ", M_L, M_R)
+    
     meanMach = calculateMeanMach(u_L, u_R, a_12)
+    print("Mean Mach number: ", meanMach)
+    
     M_0 = calculateM0(meanMach, inletMach)
+    print("Calculate M_0: ", M_0)
+    
     f_a = calculateScalingFactor(M_0)
 
     M_12 = calculateFaceMach(M_L, M_R, M_0, meanMach, f_a, p_R, p_L, rho_12, a_12)

@@ -1,14 +1,12 @@
-def requireMeshPath():
-    path = input(r"Enter path: ")
-    return path
-
 def meshFileImport(path):
+    ''' This function imports polyMesh file where is given in path'''
     f = open(path, "r")
     data = f.read()
     content = data.split('\n')
     return content
 
 def checkDataType(content):
+    ''' This function checks whether read data is point, face, or cell'''
     for line in content:
         if ("points;" in line):
             dataType = 0
@@ -23,6 +21,7 @@ def checkDataType(content):
     return dataType
 
 def parseData(content, dataType):
+    ''' This function processes given polyMesh file into mesh data'''
     parsedData = []
     boundaryNames = []
     boundaryTypes = []
@@ -43,8 +42,26 @@ def parseData(content, dataType):
                     singleDataID = singleDataID + 1               
                 else:
                     totalNumber = int(content[content.index(line) - 1]);
-        elif ((dataType == 2 or dataType == 3)):
+        elif (dataType == 2):
             if (line.isnumeric()):
+                if ('(' in content[content.index(line) + 1]):
+                    totalNumber = int(line)
+                else:
+                    singleData.append(singleDataID)
+                    singleData.append(int(line))
+                    parsedData.append(singleData)
+                    singleDataID = singleDataID + 1
+        elif (dataType == 3):
+            if ('(' and ')' in line):
+                totalNumber = int(line.split("(")[0])
+                data = line.split("(")[1].split(")")[0]
+                for i in range(len(data.split(" "))):
+                    singleData.append(singleDataID)
+                    singleData.append(int(data.split(" ")[i]))
+                    parsedData.append(singleData)
+                    singleDataID = singleDataID + 1
+                    singleData = []
+            elif (line.isnumeric()):
                 if ('(' in content[content.index(line) + 1]):
                     totalNumber = int(line)
                 else:
@@ -73,71 +90,62 @@ def parseData(content, dataType):
         singleData = []
     return parsedData, totalNumber
 
-path = requireMeshPath()
-
-points = meshFileImport(path + "/polyMesh/points")
-faces = meshFileImport(path + "/polyMesh/faces")
-owners = meshFileImport(path +"/polyMesh/owner")
-nbours = meshFileImport(path + "/polyMesh/neighbour")
-boundary = meshFileImport(path + "/polyMesh/boundary")
-
-pointDataType = checkDataType(points)
-faceDataType = checkDataType(faces)
-ownerDataType = checkDataType(owners)
-nboursDataType = checkDataType(nbours)
-boundaryDataType = checkDataType(boundary)
-
-parsedPoints, totalPoints = parseData(points, pointDataType)
-parsedFaces, totalFaces = parseData(faces, faceDataType)
-parsedOwners, totalOwners = parseData(owners, ownerDataType)
-parsedNbours, totalNbours = parseData(nbours, nboursDataType)
-parsedBoundary, totalBoundary = parseData(boundary, boundaryDataType)
-
 def findTotalCellNumbers(content):
+    ''' Find the total number of cells '''
     for line in content:
         if ('note' in line):
-            totalCellNumber = int(line.split('nCells:')[1].split(' ')[0])
+            totalCellNumber = int(line.split('nCells:')[1].split('nFaces:')[0])
     return totalCellNumber
 
-def readVertexCoordinates(index):
-    xCoordinate = parsedPoints[index][1]
-    yCoordinate = parsedPoints[index][2]
-    zCoordinate = parsedPoints[index][3]
+def readVertexCoordinates(pointIndex, parsedPoints):
+    ''' This function finds the coordinates of a given point'''
+    xCoordinate = parsedPoints[pointIndex][1]
+    yCoordinate = parsedPoints[pointIndex][2]
+    zCoordinate = parsedPoints[pointIndex][3]
     coordinate = [xCoordinate, yCoordinate, zCoordinate]
     return coordinate
 
-def findFacesOfCell(cellIndex):
-     facesOfElement = []
-     for i in range(len(parsedOwners)):
-         if (parsedOwners[i][1] == cellIndex):
-             facesOfElement.append(parsedFaces[i])
-     for i in range(len(parsedNbours)):
-         if (parsedNbours[i][1] == cellIndex):
-             facesOfElement.append(parsedFaces[i])
-     return facesOfElement
+def findFacesOfCell(cellIndex, parsedOwners, parsedNbours, parsedFaces):
+    ''' This function finds the faces of a given cell''' 
+    facesOfElement = []
+    for i in range(len(parsedOwners)):
+        if (parsedOwners[i][1] == cellIndex):
+            facesOfElement.append(parsedFaces[i])
+    for i in range(len(parsedNbours)):
+        if (parsedNbours[i][1] == cellIndex):
+            facesOfElement.append(parsedFaces[i])
+    return facesOfElement
 
 def determineLimitsOfBoundary(boundary):
+    ''' This function parses boundary limits, and finds number of faces'''
     minFaceID = int(boundary[3])
     numberOfFaces = int(boundary[2])
     maxFaceID = minFaceID + numberOfFaces - 1
     return minFaceID, maxFaceID
 
-def findLeftCells(faceID):
-    leftCellID = parsedOwners[faceID][1]
-    return leftCellID
+def findLeftRightCells(faceID, cellID, parsedOwners, parsedNbours):
+    ''' This function finds left and right cells of a face'''
+    leftCellID = cellID
+    for faces in parsedNbours:
+        checkFaceID = faces[0]
+        checkCellID = faces[1]
+        if (faceID == checkFaceID and cellID != checkCellID):
+            rightCellID = checkCellID
+    for faces in parsedOwners:
+        checkFaceID = faces[0]
+        checkCellID = faces[1]
+        if (faceID == checkFaceID and cellID != checkCellID):
+            rightCellID = checkCellID
+    return leftCellID, rightCellID
 
-def findRightCells(faceID):
-    rightCellID = parsedNbours[faceID][1]
-    return rightCellID
 
-def findEachFaceCoordinates():
+def findEachFaceCoordinates(parsedFaces, parsedPoints):
+    ''' This function finds face coordinates from parsed points'''
     allFaces = []
     singleFace = []
     for face in parsedFaces:
         for j in range(1,5):
-            singleFace.append(readVertexCoordinates(int(face[j])))
+            singleFace.append(readVertexCoordinates(int(face[j]), parsedPoints))
         allFaces.append(singleFace)
         singleFace = []
     return allFaces
-
-facesWCoords = findEachFaceCoordinates()

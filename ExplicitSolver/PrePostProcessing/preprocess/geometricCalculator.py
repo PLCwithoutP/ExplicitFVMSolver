@@ -1,8 +1,8 @@
 import foamMeshReader as fmr
 import numpy as np
 
-def calculateFaceArea(faceIndex):
-    face = fmr.facesWCoords[faceIndex]
+def calculateFaceArea(faceIndex, facesWCoords):
+    face = facesWCoords[faceIndex]
     point1 = face[0]
     point2 = face[1]
     point3 = face[2]
@@ -20,13 +20,13 @@ def calculateFaceArea(faceIndex):
     area = np.linalg.norm(area)
     return area
 
-def calculateFaceNormalVector(faceIndex, cellIndex):
-    face = fmr.facesWCoords[faceIndex]
+def calculateFaceNormalVector(faceIndex, cellIndex, parsedOwners, facesWCoords):
+    face = facesWCoords[faceIndex]
     point1 = face[0]
     point2 = face[1]
     point3 = face[2]
     point4 = face[3]
-    pointCenter = calculateFaceCenterPoint(faceIndex)
+    pointCenter = calculateFaceCenterPoint(faceIndex, facesWCoords)
     vector1 = [0, 0, 0]
     vector2 = [0, 0, 0]
     vector3 = [0, 0, 0]
@@ -43,13 +43,13 @@ def calculateFaceNormalVector(faceIndex, cellIndex):
     faceOrthoVector = 0.5*(np.cross(vector1, vector2) + np.cross(vector2, vector3) 
                 + np.cross(vector3, vector4) + np.cross(vector4, vector1))
     faceNormalVector = faceOrthoVector/np.linalg.norm(faceOrthoVector)
-    if not (cellIndex == fmr.parsedOwners[faceIndex][1]):
+    if not (cellIndex == parsedOwners[faceIndex][1]):
         for i in range(len(faceNormalVector)):
             faceNormalVector[i] = (-1)*faceNormalVector[i]
     return faceNormalVector
     
-def calculateEdgeVector(faceIndex):
-    face = fmr.facesWCoords[faceIndex]
+def calculateEdgeVector(faceIndex, facesWCoords):
+    face = facesWCoords[faceIndex]
     point1 = face[0]
     point2 = face[1]
     vector1 = [0, 0, 0]
@@ -59,8 +59,8 @@ def calculateEdgeVector(faceIndex):
         vector1[i] = point2[i] - point1[i]
     return vector1
 
-def calculateFaceCenterPoint(faceIndex):
-    face = fmr.facesWCoords[faceIndex]
+def calculateFaceCenterPoint(faceIndex, facesWCoords):
+    face = facesWCoords[faceIndex]
     point1 = face[0]
     point2 = face[1]
     point3 = face[2]
@@ -82,14 +82,14 @@ def calculateFaceCenterPoint(faceIndex):
     centerPoint = [xCoord, yCoord, zCoord]
     return centerPoint
 
-def calculateElementCenterPoint(cellIndex):
+def calculateElementCenterPoint(cellIndex, parsedOwners, parsedNbours, parsedFaces, facesWCoords):
     facesOfElement = []
     xCenter = 0
     yCenter = 0
     zCenter = 0
-    facesOfElement = fmr.findFacesOfCell(cellIndex)
+    facesOfElement = fmr.findFacesOfCell(cellIndex, parsedOwners, parsedNbours, parsedFaces)
     for i in range(len(facesOfElement)):
-        faceCenter = calculateFaceCenterPoint(int(facesOfElement[i][0]))
+        faceCenter = calculateFaceCenterPoint(int(facesOfElement[i][0]), facesWCoords)
         xCenter = xCenter + faceCenter[0]
         yCenter = yCenter + faceCenter[1]
         zCenter = zCenter + faceCenter[2]
@@ -99,22 +99,35 @@ def calculateElementCenterPoint(cellIndex):
     centerPoint = [xCenter, yCenter, zCenter]
     return centerPoint
 
-def calculateElementVolumePoly(cellIndex):
+def calculateElementVolume(cellIndex, parsedOwners, parsedNbours, parsedFaces, facesWCoords):
     facesOfElement = []
     volume = 0
-    facesOfElement = fmr.findFacesOfCell(cellIndex)
+    facesOfElement = fmr.findFacesOfCell(cellIndex, parsedOwners, parsedNbours, parsedFaces)
     for face in facesOfElement:
-        faceArea = calculateFaceArea(face[0])
-        faceCenter = calculateFaceCenterPoint(face[0])
-        faceNormal = calculateFaceNormalVector(face[0], cellIndex)
+        faceArea = calculateFaceArea(face[0], facesWCoords)
+        faceCenter = calculateFaceCenterPoint(face[0], facesWCoords)
+        faceNormal = calculateFaceNormalVector(face[0], cellIndex, parsedOwners, facesWCoords)
         volume = volume + (faceArea*(np.dot(faceCenter,faceNormal)))
     return volume/3
     
 
-def calculateInterpolationVector(cellIndex, faceIndex):
-    cellCenter = calculateElementCenterPoint(cellIndex)
-    faceCenter = calculateFaceCenterPoint(faceIndex)
+def calculateInterpolationVector(cellIndex, faceIndex, parsedOwners, parsedNbours, parsedFaces, facesWCoords):
+    cellCenter = calculateElementCenterPoint(cellIndex, parsedOwners, parsedNbours, parsedFaces, facesWCoords)
+    faceCenter = calculateFaceCenterPoint(faceIndex, facesWCoords)
     vector = [0,0,0]
     for i in range(len(cellCenter)):
-        vector[i] = cellCenter[i] - faceCenter[i]
+        vector[i] = faceCenter[i] - cellCenter[i]
     return vector
+
+def calculateExtremumEdges(cellIndex, parsedOwners, parsedNbours, parsedFaces, facesWCoords):
+    faces = fmr.findFacesOfCell(cellIndex, parsedOwners, parsedNbours, parsedFaces)
+    edges = []
+    for face in faces:
+        faceID = face[0]
+        for i in range(0,4):
+            edgeLength = np.linalg.norm(np.array(facesWCoords[faceID][i], dtype = float) 
+                                        - np.array(facesWCoords[faceID][(i+1)%4], dtype = float))
+            edges.append(edgeLength)
+    maximumEdge = max(edges)
+    minimumEdge = min(edges)
+    return maximumEdge, minimumEdge
