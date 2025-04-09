@@ -1,0 +1,1651 @@
+
+Solution has been started!
+
+Time = 0
+********************************************************************************
+--------------------------------------------------------------------------------
+Calculation phase is started!
+--------------------------------------------------------------------------------
+Internal face number: 0
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 1
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 2
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 3
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 4
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 5
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 6
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 7
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 8
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 9
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 10
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 11
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 12
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 13
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 14
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 15
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 16
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 17
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 18
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 19
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 20
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 21
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 22
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 23
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 24
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 25
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 26
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 27
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 28
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 29
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 30
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 31
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 32
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 33
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 34
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 35
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 36
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 37
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 38
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 39
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 40
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 41
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 42
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 43
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 44
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 45
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 46
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 47
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 48
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left and right face vectors: [1, 0, 0, 0, 25] [1, 0, 0, 0, 25]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 49
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [1, 0, 0, 0, 25] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [1, 0, 0, 0, 25] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [56.711763319522944, 5.499999999999999, 0.0, 0.0, 1984.911716183303]
+Right face normal flux: [56.711763319522944, -5.499999999999999, 0.0, 0.0, 1984.911716183303]
+Internal face number: 50
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 51
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 52
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 53
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 54
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 55
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 56
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 57
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 58
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 59
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 60
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 61
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 62
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 63
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 64
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 65
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 66
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 67
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 68
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 69
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 70
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 71
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 72
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 73
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 74
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 75
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 76
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 77
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 78
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 79
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 80
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 81
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 82
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 83
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 84
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 85
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 86
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 87
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 88
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 89
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 90
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 91
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 92
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 93
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 94
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 95
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 96
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 97
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 98
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left and right face vectors: [0.125, 0, 0, 0, 2.5] [0.125, 0, 0, 0, 2.5]
+Left face normal flux: [0.0, 0.9999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -0.9999999999999998, 0.0, 0.0, 0.0]
+--------------------------------------------------------------------------------
+Evaluation phase is started!
+--------------------------------------------------------------------------------
+Cell number: 0
+Face number: 0
+Flux is : [ 0. 10.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 1
+Face number: 1
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 0
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 2
+Face number: 2
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 1
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 3
+Face number: 3
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 2
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 4
+Face number: 4
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 3
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 5
+Face number: 5
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 4
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 6
+Face number: 6
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 5
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 7
+Face number: 7
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 6
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 8
+Face number: 8
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 7
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 9
+Face number: 9
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 8
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 10
+Face number: 10
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 9
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 11
+Face number: 11
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 10
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 12
+Face number: 12
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 11
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 13
+Face number: 13
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 12
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 14
+Face number: 14
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 13
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 15
+Face number: 15
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 14
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 16
+Face number: 16
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 15
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 17
+Face number: 17
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 16
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 18
+Face number: 18
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 17
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 19
+Face number: 19
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 18
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 20
+Face number: 20
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 19
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 21
+Face number: 21
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 20
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 22
+Face number: 22
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 21
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 23
+Face number: 23
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 22
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 24
+Face number: 24
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 23
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 25
+Face number: 25
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 24
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 26
+Face number: 26
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 25
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 27
+Face number: 27
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 26
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 28
+Face number: 28
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 27
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 29
+Face number: 29
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 28
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 30
+Face number: 30
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 29
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 31
+Face number: 31
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 30
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 32
+Face number: 32
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 31
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 33
+Face number: 33
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 32
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 34
+Face number: 34
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 33
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 35
+Face number: 35
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 34
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 36
+Face number: 36
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 35
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 37
+Face number: 37
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 36
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 38
+Face number: 38
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 37
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 39
+Face number: 39
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 38
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 40
+Face number: 40
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 39
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 41
+Face number: 41
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 40
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 42
+Face number: 42
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 41
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 43
+Face number: 43
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 42
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 44
+Face number: 44
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 43
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 45
+Face number: 45
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 44
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 46
+Face number: 46
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 45
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 47
+Face number: 47
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 46
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 48
+Face number: 48
+Flux is : [ 0. 10.  0.  0.  0.]
+Face number: 47
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 49
+Face number: 49
+Flux is : [  56.71176332    5.5           0.            0.         1984.91171618]
+Face number: 48
+Flux is : [  0. -10.   0.   0.   0.]
+Cell center value: [-0.5671176331952293, 0.044999999999999984, -0.0, -0.0, -19.84911716183303]
+Cell number: 50
+Face number: 50
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 49
+Flux is : [  56.71176332   -5.5           0.            0.         1984.91171618]
+Cell center value: [-0.5671176331952295, 0.04499999999999999, -0.0, -0.0, -19.849117161833032]
+Cell number: 51
+Face number: 51
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 50
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 52
+Face number: 52
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 51
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 53
+Face number: 53
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 52
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 54
+Face number: 54
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 53
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 55
+Face number: 55
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 54
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 56
+Face number: 56
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 55
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 57
+Face number: 57
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 56
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 58
+Face number: 58
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 57
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 59
+Face number: 59
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 58
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 60
+Face number: 60
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 59
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 61
+Face number: 61
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 60
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 62
+Face number: 62
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 61
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 63
+Face number: 63
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 62
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 64
+Face number: 64
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 63
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 65
+Face number: 65
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 64
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 66
+Face number: 66
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 65
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 67
+Face number: 67
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 66
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 68
+Face number: 68
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 67
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 69
+Face number: 69
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 68
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 70
+Face number: 70
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 69
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 71
+Face number: 71
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 70
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 72
+Face number: 72
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 71
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 73
+Face number: 73
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 72
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 74
+Face number: 74
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 73
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 75
+Face number: 75
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 74
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 76
+Face number: 76
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 75
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 77
+Face number: 77
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 76
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 78
+Face number: 78
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 77
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 79
+Face number: 79
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 78
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 80
+Face number: 80
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 79
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 81
+Face number: 81
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 80
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 82
+Face number: 82
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 81
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 83
+Face number: 83
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 82
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 84
+Face number: 84
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 83
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 85
+Face number: 85
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 84
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 86
+Face number: 86
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 85
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 87
+Face number: 87
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 86
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 88
+Face number: 88
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 87
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 89
+Face number: 89
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 88
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 90
+Face number: 90
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 89
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 91
+Face number: 91
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 90
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 92
+Face number: 92
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 91
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 93
+Face number: 93
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 92
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 94
+Face number: 94
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 93
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 95
+Face number: 95
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 94
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 96
+Face number: 96
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 95
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 97
+Face number: 97
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 96
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 98
+Face number: 98
+Flux is : [0. 1. 0. 0. 0.]
+Face number: 97
+Flux is : [ 0. -1.  0.  0.  0.]
+Cell center value: [-0.0, -0.0, -0.0, -0.0, -0.0]
+Cell number: 99
+Cell center value: [-0.0, -0.0005769230769230769, -0.0, -0.0, -0.0]
+Time = 0.001
+********************************************************************************
+--------------------------------------------------------------------------------
+Calculation phase is started!
+--------------------------------------------------------------------------------
+Internal face number: 0
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 1
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 2
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 3
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 4
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 5
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 6
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 7
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 8
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 9
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 10
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 11
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 12
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 13
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 14
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 15
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 16
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 17
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 18
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 19
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 20
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 21
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 22
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 23
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 24
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 25
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 26
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 27
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 28
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 29
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 30
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 31
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 32
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 33
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 34
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 35
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 36
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 37
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 38
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 39
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 40
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 41
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 42
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 43
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 44
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 45
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 46
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 47
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [ 1.  0.  0.  0. 25.]
+Left face normal flux: [0.0, 9.999999999999998, 0.0, 0.0, 0.0]
+Right face normal flux: [0.0, -9.999999999999998, 0.0, 0.0, 0.0]
+Internal face number: 48
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [ 1.  0.  0.  0. 25.] [0.43288237 0.045      0.         0.         5.15088284]
+Left and right face vectors: [ 1.  0.  0.  0. 25.] [0.43288237 0.045      0.         0.         5.15088284]
+Left face normal flux: [19.11047672266748, 6.025426039085775, 0.0, 0.0, 668.8666852933619]
+Right face normal flux: [19.006522384374247, -6.033993283324348, 0.0, 0.0, 665.2282834530986]
+Internal face number: 49
+Face normal: [1. 0. 0.]
+Inverse face normal: [-1. -0. -0.]
+Left and right cell vectors: [0.43288237 0.045      0.         0.         5.15088284] [ -0.44211763   0.045        0.           0.         -17.34911716]
+Left and right face vectors: [0.43288237 0.045      0.         0.         5.15088284] [ -0.44211763   0.045        0.           0.         -17.34911716]
